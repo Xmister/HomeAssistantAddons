@@ -16,6 +16,7 @@ export SUNGROW_MQTT_HOST=$(bashio::config 'sungrow_mqtt_host')
 export SUNGROW_MQTT_PORT=$(bashio::config 'sungrow_mqtt_port')
 export SUNGROW_MQTT_USER=$(bashio::config 'sungrow_mqtt_user')
 export SUNGROW_MQTT_PASSWORD=$(bashio::config 'sungrow_mqtt_password')
+export HOME=/root
 
 bashio::log.info "Writing GoSungrow config ..."
 
