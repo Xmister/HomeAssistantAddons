@@ -42,5 +42,5 @@ COPY src/getUrl.sh /usr/local/bin/getUrl.sh
 RUN chmod a+x /usr/local/bin/run.sh /usr/local/bin/getUrl.sh && /usr/local/bin/getUrl.sh
 
 # ENTRYPOINT ["/usr/local/bin/GoSungrow"]
-CMD ["/usr/local/bin/run.sh"]
+ENTRYPOINT ["/usr/local/bin/run.sh"]
 
